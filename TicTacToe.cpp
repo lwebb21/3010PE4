@@ -12,17 +12,18 @@ vector<vector<int> > CreateBoard(){
     return board;
 }
 
-// prints the board
-void DisplayBoard(vector<vector<int>> board)
-{
-  for(int i = 0; i < 3; i++)
-  {
-    for(int j = 0; j < 3; j++)
-    {
-      cout << board[i][j] << " ";
+void DisplayBoard(vector<vector<int> > board){
+    for(int i = 0; i < 3; i++){
+        for(int j = 0; j < 3; j++){
+            switch(board[i][j]){
+                case 0: cout << "~";
+                case 1: cout << "X";
+                case 2: cout << "O";
+                default: break;
+            }
+        }
+        cout << endl;
     }
-    cout << endl;
-  }
 }
 
 int main(){
