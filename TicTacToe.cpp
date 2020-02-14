@@ -26,6 +26,15 @@ void DisplayBoard(vector<vector<int> > board){
     }
 }
 
+int GetPlayerChoice()
+{
+  cout << "Where would you like to move?(Enter a number 0 - 8)" << endl;
+  string user_response;
+  getline(cin,user_response);
+  return user_response
+
+}
+
 int main(){
     vector<vector<int> > board = CreateBoard();
     return 1;
