@@ -26,6 +26,13 @@ void DisplayBoard(vector<vector<int> > board){
     }
 }
 
+int GetPlayerChoice(){
+  cout << "Where would you like to move?(Enter a number 0 - 8)" << endl;
+  string user_response;
+  getline(cin,user_response);
+  return user_response
+}
+    
 void PlaceMarker(int location, int mark, vector<vector<int> > &board){
     int i = location / 3;
     int j = location % 3;
