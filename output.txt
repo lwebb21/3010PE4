@@ -1,0 +1,31 @@
+cu-tcom-5-10:3010PE4 lucaswebb$ ./main
+~~~
+~~~
+~~~
+Where would you like to move?(Enter a number 0 - 8)
+0
+O~~
+~~~
+~~~
+Where would you like to move?(Enter a number 0 - 8)
+1
+OX~
+~~~
+~~~
+Where would you like to move?(Enter a number 0 - 8)
+4
+OX~
+~O~
+~~~
+Where would you like to move?(Enter a number 0 - 8)
+3
+OX~
+XO~
+~~~
+Where would you like to move?(Enter a number 0 - 8)
+8
+OX~
+XO~
+~~O
+Where would you like to move?(Enter a number 0 - 8)
+
