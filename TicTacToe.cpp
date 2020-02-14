@@ -26,6 +26,12 @@ void DisplayBoard(vector<vector<int> > board){
     }
 }
 
+void PlaceMarker(int location, int mark, vector<vector<int> > &board){
+    int i = location / 3;
+    int j = location % 3;
+    board[i][j] = mark;
+}
+
 int main(){
     vector<vector<int> > board = CreateBoard();
     return 1;
